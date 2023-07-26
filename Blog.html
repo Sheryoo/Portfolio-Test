@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Course.html">Course</a></li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi necessitatibus facilis neque! Nisi
+                    numquam eligendi modi ipsam eum, minima odit expedita hic odio quis magnam velit? Aliquam iusto
+                    excepturi mollitia veniam officiis? Odio ipsam maiores ullam voluptas tempora impedit quis!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi cum non pariatur inventore eveniet
+                    voluptate aut maxime? Sit modi assumenda eius sunt velit, nostrum reprehenderit repellendus possimus
+                    ad perferendis perspiciatis repellat dolor quibusdam placeat neque itaque dolorum optio iusto
+                    dignissimos.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a nam necessitatibus unde provident
+                    minima debitis sint perspiciatis quia sed numquam blanditiis nesciunt ratione quisquam, consequatur
+                    facere aspernatur quis! Eum sequi omnis doloribus cupiditate assumenda quia saepe. Odit, ut
+                    blanditiis.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex ad nobis eaque voluptatum
+                    voluptatem placeat nemo. Voluptatum quia nobis accusamus tempora doloremque, aperiam est laboriosam
+                    deleniti commodi, quidem deserunt iusto eius reprehenderit eum debitis sapiente. Odit maiores
+                    doloremque velit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam non, a dicta adipisci,
+                    asperiores quasi doloribus soluta debitis cupiditate, quidem voluptatum pariatur eius perspiciatis.
+                    Id quos, hic vero debitis illo culpa iure quo amet optio ducimus, quae labore voluptas.</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Emial">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn ex-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Cumputer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi ratione ex <br>ullam quia excepturi
+            numquam porro accusantium, rerum incidunt.</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-square-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-solid fa-heart"></i> By : Sheryoo0</p>
+    </section>
+
+    <script src="https://kit.fontawesome.com/92371e5d01.js" crossorigin="anonymous"></script>
+    <script>var navLinks = document.getElementById('nav-links')
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }</script>
+</body>
+
+</html>

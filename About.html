@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Course.html">Course</a></li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!-- About Us Content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam quisquam amet? Incidunt
+                    dicta reiciendis repellendus optio perspiciatis sit odit vel quibusdam explicabo excepturi, rerum
+                    aut doloribus ut illum quae omnis tempora sequi! Ipsa recusandae quasi alias itaque repellendus.
+                    Perspiciatis.</p>
+                <a href="" class="hero-btn ex-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero animi ratione ex <br>ullam quia excepturi
+            numquam porro accusantium, rerum incidunt.</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-square-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-solid fa-heart"></i> By : Sheryoo0</p>
+    </section>
+
+    <script src="https://kit.fontawesome.com/92371e5d01.js" crossorigin="anonymous"></script>
+    <script>var navLinks = document.getElementById('nav-links')
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }</script>
+</body>
+
+</html>
